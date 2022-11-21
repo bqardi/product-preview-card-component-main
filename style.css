@@ -35,23 +35,23 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1.25rem;
 }
 .card__category {
   text-transform: uppercase;
-  font-size: 0.65rem;
-  letter-spacing: 0.25rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.3rem;
   color: var(--dark-grayish-blue);
 }
 .card__title {
   margin: 1.3rem 0 0;
   font-family: var(--font-fraunces);
-  font-size: 1.9rem;
+  font-size: 2rem;
   line-height: 1;
   color: var(--very-dark-blue);
 }
 .card__description {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--dark-grayish-blue);
   line-height: 1.75;
   margin: 1.3rem 0 0;
@@ -67,7 +67,7 @@ body {
   color: var(--dark-cyan);
 }
 .card__formerprice {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   color: var(--dark-grayish-blue);
   text-decoration: line-through;
   margin-left: 1rem;
@@ -93,7 +93,7 @@ body {
   filter: brightness(0.85);
 }
 .card__icon {
-  width: 1.1em;
+  width: 1.5em;
   margin-right: 0.5rem;
 }
 
@@ -101,12 +101,12 @@ body {
   .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 580px;
+    max-width: 600px;
   }
   .card__image {
     height: 100%;
   }
   .card__container {
-    padding: 32px;
+    padding: 2rem;
   }
 }
