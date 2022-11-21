@@ -32,6 +32,9 @@ body {
   width: 100%;
 }
 .card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 20px;
 }
 .card__category {
@@ -96,9 +99,12 @@ body {
   .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 520px;
+    max-width: 560px;
   }
   .card__image {
     height: 100%;
+  }
+  .card__container {
+    padding: 32px;
   }
 }
