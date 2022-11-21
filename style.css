@@ -27,6 +27,15 @@ body {
   overflow: hidden;
   background-color: var(--white);
 }
+.card__picture {
+  position: relative;
+}
+.card__picture::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .card__image {
   display: block;
   width: 100%;
@@ -53,7 +62,7 @@ body {
 .card__description {
   font-size: 0.9rem;
   color: var(--dark-grayish-blue);
-  line-height: 1.75;
+  line-height: 1.7;
   margin: 1.3rem 0 0;
 }
 .card__prices {
@@ -79,11 +88,11 @@ body {
   border-radius: 0.5rem;
   width: 100%;
   padding: 0.8rem;
-  margin-top: 1.3rem;
+  margin-top: 1.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 700;
   font-family: var(--font-montserrat);
   cursor: pointer;
