@@ -96,7 +96,7 @@ body {
   .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 480px;
+    max-width: 520px;
   }
   .card__image {
     height: 100%;
